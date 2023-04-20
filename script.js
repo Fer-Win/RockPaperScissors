@@ -71,6 +71,7 @@ function endGame() {
   resultDiv.innerText = '';
   playerScore.innerText = '';
   choice.innerText = '';
+  totalscores['playerScore'] = 0;
 }
 
 playGame()
